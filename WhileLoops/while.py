@@ -20,21 +20,26 @@
 
 import random
 
-highest = 10
+highest = 100
 answer = random.randint(1,highest)
 
 print("Please guess a number between 1 and {0}:".format(highest))
-guess = int(input())
-if guess != answer:
+guess = 0
+#if guess != answer:
+while guess!= answer:
+    guess = int(input())
+    if guess == 0:
+        break
     if guess < answer:
         print("Please guess higher")
-    else:
+    elif guess > answer:
         print("Please guess lower")
-    guess = int(input())
-    if guess == answer:
-        print("Well done")
+    #guess = int(input())
+    #if guess == answer:
     else:
-        print("Incorrect guess:")
-        print("Number is {0}".format(answer))
-else:
-    print("1st time you got it")
+        print("You guessed correctly")
+    # else:
+    #     print("Incorrect guess:")
+    #     #print("Number is {0}".format(answer))
+# else:
+#     print("1st time you got it")
