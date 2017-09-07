@@ -1,33 +1,23 @@
-<collection shelf="New Arrivals">
-    <movie title="Enemy Behind">
-        <type>War, Thriller</type>
-        <format>DVD</format>
-        <year>2003</year>
-        <rating>PG</rating>
-        <stars>10</stars>
-        <description>Talk about a US-Japan war</description>
-    </movie>
-    <movie title="Transformers">
-        <type>Anime, Science Fiction</type>
-        <format>DVD</format>
-        <year>1989</year>
-        <rating>R</rating>
-        <stars>8</stars>
-        <description>A schientific fiction</description>
-    </movie>
-    <movie title="Trigun">
-        <type>Anime, Action</type>
-        <format>DVD</format>
-        <episodes>4</episodes>
-        <rating>PG</rating>
-        <stars>10</stars>
-        <description>Vash the Stampede!</description>
-    </movie>
-    <movie title="Ishtar">
-        <type>Comedy</type>
-        <format>VHS</format>
-        <rating>PG</rating>
-        <stars>2</stars>
-        <description>Viewable boredom</description>
-    </movie>
-</collection>
+<?xml version="1.0"?>
+<data>
+    <country name="Liechtenstein">
+        <rank>1</rank>
+        <year>2008</year>
+        <gdppc>141100</gdppc>
+        <neighbor name="Austria" direction="E"/>
+        <neighbor name="Switzerland" direction="W"/>
+    </country>
+    <country name="Singapore">
+        <rank>4</rank>
+        <year>2011</year>
+        <gdppc>59900</gdppc>
+        <neighbor name="Malaysia" direction="N"/>
+    </country>
+    <country name="Panama">
+        <rank>68</rank>
+        <year>2011</year>
+        <gdppc>13600</gdppc>
+        <neighbor name="Costa Rica" direction="W"/>
+        <neighbor name="Colombia" direction="E"/>
+    </country>
+</data>
